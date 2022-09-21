@@ -8,7 +8,6 @@
   <img align="center" alt="Bia-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
   <img align="center" alt="Bia-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
   <img align="center" alt="Bia-Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
-  <img align="right" alt="gif" src="https://cdn.discordapp.com/attachments/1021496441589477406/1022197496396648558/picasion.com_06e555bd25cf00062de074b18484116c.gif">
 </div>
 
   ##
