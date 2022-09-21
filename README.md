@@ -11,6 +11,8 @@
   <img align="right" alt="gif" src="https://cdn.discordapp.com/attachments/1021496441589477406/1022197496396648558/picasion.com_06e555bd25cf00062de074b18484116c.gif">
 </div>
 
+  ##
+  
 <div>
   <a href= "mailto:biancavieiraitj@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=whit" destino ="_blank"></a>
   <a href="https://www.linkedin.com/in/bianca-vieira-50a5b522b"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
