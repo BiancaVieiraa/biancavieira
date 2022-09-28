@@ -127,6 +127,7 @@ nav a:hover {
     margin-left: 35%;
     margin-top: 2%;
     justify-content: center;
+    text-align: center;
 }
 
 input, textarea, button{
