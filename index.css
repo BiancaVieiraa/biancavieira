@@ -128,8 +128,6 @@ nav a:hover {
     margin-top: 2%;
     justify-content: center;
     display: block;
-    margin: 0;
-    padding: 0;
 }
 
 input, textarea, button{
@@ -195,9 +193,6 @@ form {
     min-height: 100vh;
     background-image: url(./img/background.jpg);
     flex-direction: column;
-    display: block;
-    margin: 0;
-    padding: 0;
 }
 
 .text {
@@ -231,7 +226,12 @@ form {
     text-shadow: none;
 }
 
+/*Pagina Projetos*/
 
+#projetos {
+    background: none;
+
+}
 
 @media only screen and (max-device-width: 900px){
     /* nav ul { width:100%; } */
