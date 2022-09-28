@@ -226,6 +226,8 @@ flex-direction: column;
     text-shadow: none;
 }
 
+
+
 @media only screen and (max-device-width: 900px){
     /* nav ul { width:100%; } */
 }
