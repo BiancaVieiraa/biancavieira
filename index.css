@@ -260,6 +260,14 @@ form {
     font-size: 23px;
 }
 
+div #projeto-bia {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-image: solid azure;
+    border-radius: 50%;
+}
+
 
 @media only screen and (max-device-width: 900px){
     /* nav ul { width:100%; } */
