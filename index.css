@@ -274,8 +274,9 @@ div #projeto-bia {
 }
 
 .projeto1 {
-    display: flex;
     align-content: center;
+    position: relative;
+    display: inline-block;
 }
 
 @media only screen and (max-device-width: 900px){
