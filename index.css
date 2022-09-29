@@ -264,10 +264,14 @@ div #projeto-bia {
     display: flex;
     align-items: center;
     align-content: center;
-    border-image: solid azure;
-    border-radius: 50%;
 }
 
+#foto1 {
+    display: flex;
+    border-radius: 50%;
+    border-color: deepskyblue;
+    
+}
 
 @media only screen and (max-device-width: 900px){
     /* nav ul { width:100%; } */
