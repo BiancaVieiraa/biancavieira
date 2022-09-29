@@ -1,3 +1,10 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+}
+
 body {
     background-image: url(./img/background.jpg);
     background-repeat: no-repeat;
@@ -20,7 +27,8 @@ nav ul {
     padding: 12px;
     background-color: rgba(253, 253, 253, 0.75) ;
     border-radius: 20px;
-    font-weight: bold
+    font-weight: bold;
+    width: 100%;
 }
 
 a {
@@ -111,23 +119,33 @@ nav a:hover {
 #titulo{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(19, 135, 180);
-    text-align: left;
-    background: none;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.562);
+    align-items: center;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 2%;
+    padding-block: 2px;
+    margin-bottom: 5px;
+}
+
+#back {
+    text-align: center;
+    list-style-type: none;
+    font-size: 15px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
 }
 
 #contact{
-    background-image: url(./img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: rgb(8, 27, 56);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    margin-left: 35%;
     margin-top: 2%;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
     justify-content: center;
-    display: block;
+    padding: center center;
+    position: center;
 }
 
 input, textarea, button{
@@ -174,8 +192,8 @@ form {
     border-radius: 20px;
     padding: 10px;
     padding-top: 20px;
-    display: block;
-    position: absolute;
+    align-items: center center;
+    display: inline-block;
 }
 
 .botao:hover {
@@ -228,11 +246,29 @@ form {
 
 /*Pagina Projetos*/
 
-#projetos {
-    background: none;
-
+.pj {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 135, 180);
+    align-items: center;
+    margin-top: 2%;
 }
+
+#projeto {
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
 
 @media only screen and (max-device-width: 900px){
     /* nav ul { width:100%; } */
+}
+
+@media (max-width: 1920px) {
+
+}
+  
+@media (max-width: 992px){
+
 }
