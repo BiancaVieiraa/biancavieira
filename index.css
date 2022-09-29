@@ -270,7 +270,12 @@ div #projeto-bia {
     display: flex;
     border-radius: 50%;
     border-color: deepskyblue;
-    
+
+}
+
+.projeto1 {
+    display: flex;
+    align-content: center;
 }
 
 @media only screen and (max-device-width: 900px){
