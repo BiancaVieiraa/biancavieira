@@ -258,6 +258,7 @@ form {
     padding: 12px;
     border-radius: 20px;
     font-size: 23px;
+    margin-top: 15px;
 }
 
 div #projeto-bia {
@@ -278,6 +279,12 @@ div #projeto-bia {
     position: relative;
     display: inline-block;
 }
+
+.textofoto1 {
+    position: absolute;
+    margin-top: -30px;
+}
+
 
 @media only screen and (max-device-width: 900px){
     /* nav ul { width:100%; } */
