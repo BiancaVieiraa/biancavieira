@@ -263,26 +263,65 @@ form {
 
 div #projeto-bia {
     display: flex;
-    align-items: center;
-    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
 }
 
-#foto1 {
+#projeto-bia img {
     display: flex;
-    border-radius: 50%;
-    border-color: deepskyblue;
-
+    width: 250px;
+    height: 250px;
+    border: solid aqua 2px;
 }
 
-.projeto1 {
-    align-content: center;
-    position: relative;
-    display: inline-block;
+#projeto-bia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 15px;
 }
 
-.textofoto1 {
+#projeto-bia img:hover {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#projeto-bia img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#projeto-bia a {
+    margin: 20px;
+    text-align: center;
+}
+
+#projeto-bia p {
     position: absolute;
-    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(252, 243, 243, 0.678);
+    color:rgb(18, 79, 104);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    top: 130px;
+    width: 254px;
+    line-height: 30px;
+    height: 30px;
+    padding: auto;
+}
+
+.projeto1, .projeto2 {
+    flex-grow: 1;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
 }
 
 
